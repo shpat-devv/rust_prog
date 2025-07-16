@@ -1,0 +1,9 @@
+[13:17:21 2025-07-08] FETCHING Version 2.40.11
+[13:17:21 2025-07-08] CREATING /Users/uglyprincess/.spicetify
+[13:17:21 2025-07-08] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.40.11/spicetify-2.40.11-darwin-arm64.tar.gz
+[13:17:23 2025-07-08] EXTRACTING /Users/uglyprincess/.spicetify/spicetify.tar.gz
+[13:17:23 2025-07-08] SETTING EXECUTABLE PERMISSIONS TO /Users/uglyprincess/.spicetify/spicetify
+[13:17:23 2025-07-08] REMOVING /Users/uglyprincess/.spicetify/spicetify.tar.gz
+[13:17:23 2025-07-08] APPENDING /Users/uglyprincess/.spicetify to PATH in /Users/uglyprincess/.zshrc
+[13:17:23 2025-07-08] spicetify v2.40.11 was installed successfully to /Users/uglyprincess/.spicetify
+[13:17:23 2025-07-08] Run 'spicetify --help' to get started

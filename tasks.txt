@@ -1,0 +1,30 @@
+🟢 EASY (1–10)
+Reverse an Array. ☑️
+Write a function that reverses a vector in place.
+
+Check for Palindrome
+Given a string, check if it reads the same backward.
+
+Find Max and Min in an Array ☑️
+Return the max and min without using built-in max() or min().
+
+Implement Binary Search ☑️
+For a sorted vector, return the index of the target, or None.
+
+Count Vowels in a String
+Return the number of vowels in a String.
+
+FizzBuzz ☑️
+Classic: Print numbers from 1–100 with "Fizz", "Buzz", etc.
+
+Sum of Digits
+Given a number, return the sum of its digits.
+
+First Non-Repeating Character
+Return the first character that appears only once in a string.
+
+Remove Duplicates from Vec
+Return a vector with unique elements.
+
+Find the Missing Number
+Given n numbers from 0..n, find the missing one.
