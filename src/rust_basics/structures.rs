@@ -6,6 +6,12 @@ pub mod pet {
         pub owner: String,
         pub deserves_treat: bool,
     }
+
+    pub struct Insect {
+        pub name: String,
+        pub owner: String,
+        pub deserves_treat: bool,
+    }
     impl Pet {
         pub fn new(pet_name: &str, pet_owner: &str, pet_deserves_treat: bool) -> Pet {
             let pet = Pet {
@@ -31,6 +37,7 @@ pub mod pet {
         }
 
     }
+
 }
 
 
@@ -50,3 +57,4 @@ pub mod rect {
         }
     }
 }
+

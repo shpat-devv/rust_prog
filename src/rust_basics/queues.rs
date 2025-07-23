@@ -1,4 +1,5 @@
 pub mod queues {
+    #[derive(Debug)] 
     pub struct Queues{
         queue: Vec<i32>,
     }

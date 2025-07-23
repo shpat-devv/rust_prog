@@ -4,6 +4,7 @@ fn main() {
     let my_list1: Vec<i32> = [8,3,2,5,4,9].to_vec();
     let my_list2: Vec<i32> = [1,1,1,2,3,3,4,4,5].to_vec();
     let my_list3: Vec<i32> = [1,2,3,4,5].to_vec();
+    let my_list4: Vec<i32> = [4,3,1,5,7,2,6].to_vec();
 
     println!("==============================");
     println!("      Array Algorithms");
@@ -15,7 +16,7 @@ fn main() {
     println!("Binary search (5):    {}", training::easy::binary_search(&mut [1, 2, 3, 4, 5], 5));
     println!("Is sorted:            {}", training::easy::check_sort(&[2, 2, 3, 4, 5]));
     println!("Bubble sort result:   {:?}", training::easy::bubble_sort(my_list1));
-    println!("Remove Duplicates     {:?}",training::easy::remove_duplicates(my_list2));
+    println!("Selection Sort.       {:?}",training::easy::selection_sort(my_list4));
 
     println!("\n==============================");
     println!("      Hash Maps");
@@ -62,4 +63,10 @@ fn main() {
     println!("your_ip: {:?}", your_ip);
     println!("my_opinion: {:?}", my_opinion);
     println!("your_opinion: {:?}", your_opinion);
+
+    println!("\n==============================");
+    println!("      RECURSION");
+    println!("==============================\n");
+
+    training::easy::recursion(10);
 }

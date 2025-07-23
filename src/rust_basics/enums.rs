@@ -7,5 +7,6 @@ pub enum IppAddrKind {
 #[derive(Debug)]
 pub enum Opinion {
     BAD(String),
+    DECENT(String),
     GOOD(String),
 } 
